@@ -1,0 +1,95 @@
+body{
+
+    font-family: 'Roboto';
+
+}
+
+.navbar-border{
+
+    background: white;
+    border-bottom: 2px solid #6BFF5A;
+
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+.img-logo{
+    
+    width: 80px;
+    height: 80px;
+}
+
+.btn-daftar{
+    margin:0px;
+}
+.card-img{
+    width: 50%;
+    border-top-right-radius: calc(.25rem - 1px);
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-kecil{
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(46, 204, 113,1.0);
+    border-radius: .50rem;
+
+}
+
+.card-body-kecil{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    border-top: 1px solid #C5C5C5;
+    
+}
+.card-kategori{
+    font-size: 14px;
+    color: #2ECC71;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-footer-kecil{
+
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    /* border-top: 1px solid rgba(0,0,0,.125); */
+}
+
+.card-material{
+
+    font-size: 16px;
+    color:  #2ECC71;;
+
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #2ECC71;;
+    background-color: #fff;
+    border: 1px solid rgba(46, 204, 113,1.0);
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:rgba(46, 204, 113,1.0);
+    border-color: rgba(46, 204, 113,1.0);
+}
